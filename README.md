@@ -16,9 +16,10 @@ Angular is used to create single page application (SPA) with dynamic data loadin
 V-Chat also uses firebase which is also a popular no-sql online database to store all related data
 
 
-# To Use :-
+# To Use/Download :-
 
-1. git clone https://github.com/ShubhPatil/V-ChatFire.git
-2. Goto to clone directory
-3. npm install
-4. ionic serve
+1. Open Command prompt OR git bash
+2. git clone https://github.com/ShubhPatil/V-ChatFire.git
+3. Goto to clone directory
+4. npm install
+5. ionic serve
