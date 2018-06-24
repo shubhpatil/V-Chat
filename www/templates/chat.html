@@ -1,0 +1,24 @@
+<ion-pane>
+    
+<ion-floating-button ng-click="scroll()" has-footer="true" button-color="#ff5050" icon="ion-chevron-down" icon-color="#fff">
+</ion-floating-button>
+    
+<ion-content class="has-header has-footer" overflow-scroll="false" has-bouncing="false">
+    <!-- type="item-text-wrap, class="item-icon-right" -->
+      <ion-item class="item-avatar item-text-wrap" ng-repeat="m in messages">
+        <img ng-src="img/pdp.jpg">
+        <h3 class="assertive">{{m.user}}</h3>
+        <p>{{m.message}}</p>
+        <h5>{{m.date | date:'medium'}}</h5>
+      </ion-item>
+   
+</ion-content>
+    
+    <div class = "bar bar-footer">
+    <input style="width:80%;border:1px solid green;" ng-model="chat" type="text" placeholder=" Message ..." required>
+        <button class="button button-balanced padding" ng-disabled="!chat" ng-click="fireSend(chat)" style="margin-left:5%;">
+              <i class="icon ion-android-send"></i>
+        </button>
+    </div>
+
+</ion-pane>

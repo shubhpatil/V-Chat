@@ -1,0 +1,19 @@
+/* Empty. Add your own CSS if you like */
+.login_border{
+    border:4px #33cd5f solid;
+    border-radius: 10px;
+}
+.login_logo{
+    height: auto;
+    width: 100%;
+    max-width: 300px;
+    -webkit-animation-delay: 0.3s;
+}
+.logo_name{
+    text-align: center;
+    color: #33cd5f;
+    font-weight: 300;
+}
+.scroll {
+    height: 100%;
+}
