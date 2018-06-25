@@ -19,7 +19,8 @@ V-Chat also uses firebase which is also a popular no-sql online database to stor
 # Installation Guide :-
 
 1. Open Command prompt OR git bash
-2. git clone https://github.com/ShubhPatil/V-ChatFire.git
-3. Goto to clone directory
-4. npm install
-5. ionic serve
+2. $ npm install -g ionic cordova
+3. git clone https://github.com/ShubhPatil/V-ChatFire.git
+4. Goto to clone directory
+5. $ npm install
+6. $ ionic serve
