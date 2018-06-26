@@ -24,3 +24,11 @@ V-Chat also uses firebase which is also a popular no-sql online database to stor
 4. Goto to clone directory
 5. $ npm install
 6. $ ionic serve
+
+# To Deploy Hybrid Mobile App :-
+
+1. Open Command prompt OR git bash in current project directory
+2. $ ionic cordova platform add android/ios
+3. $ ionic cordova build android/ios
+
+^_~
