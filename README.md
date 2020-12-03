@@ -15,8 +15,9 @@ Angular is used to create single page application (SPA) with dynamic data loadin
 
 V-Chat also uses firebase which is also a popular no-sql online database to store all related data
 
+# ionic start my-project blank --type ionic1
 
-# Installation Guide :-
+# Instalnlation Guide :-
 
 1. Open Command prompt OR git bash
 2. npm install -g ionic cordova
