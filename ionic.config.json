@@ -1,12 +1,11 @@
 {
-  "name": "V-Chat",
-  "app_id": "",
+  "name": "vchat",
+  "integrations": {},
   "type": "ionic1",
-  "integrations": {
-    "gulp": {},
-    "cordova": {}
-  },
   "watchPatterns": [
-    "scss/**/*"
+    "scss/**/*",
+    "www/**/*",
+    "!www/lib/**/*",
+    "!www/**/*.map"
   ]
 }
